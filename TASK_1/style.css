@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "gilroy";
+  src: url(font/Gilroy-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "horizon";
+  src: url(font/horizon.otf) format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy", sans-serif;
+  color: #ffffff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  color: white;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#nav {
+  padding-top: 10px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 31%;
+}
+#nav h1 {
+  font-size: 25px;
+  color: red;
+}
+
+#nav h5 {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#nav h6 {
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 110px;
+  text-transform: uppercase;
+}
+
+#nav h4 {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#content {
+  width: 100%;
+  height: calc(100% - 80px);
+  position: relative;
+  display: flex;
+  padding: 50px 0 30px 30px;
+}
+
+#part1 {
+  height: 100%;
+  width: 40%;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+#part2 {
+  height: 100%;
+  width: 30%;
+}
+
+#part1 {
+  height: 100%;
+  width: 30%;
+}
+
+#part1 h1 {
+  font-family: "horizon";
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: "horizon";
+}
+
+#part1 h1 span {
+  font-family: "horizon";
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: red;
+}
+
+#part1 img {
+  height: 280px;
+  margin-top: 40px;
+}
+
+#inpart1 {
+  position: absolute;
+  left: 330px;
+  top: 66%;
+}
+
+#inpart1 h2 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+#inpart1 h6 {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+#inpart1 span {
+  color: red;
+  font-weight: 700;
+}
+
+#part2 img {
+  margin-left: 120px;
+  height: 560px;
+  margin-top: 20px;
+}
+
+#inpart2 {
+  position: absolute;
+  left: 830px;
+  top: 76%;
+}
+
+#inpart2 h1 {
+  font-family: "horizon";
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: "horizon";
+}
+
+#inpart2 h1 span {
+  font-family: "horizon";
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: red;
+}
+
+#part3 {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+#part3 span {
+  color: red;
+  font-weight: 700;
+}
+
+#part3 img {
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  height: 240px;
+  margin-top: 40px;
+  margin-left: -10px;
+}
+
+#part3 h2 {
+  letter-spacing: 2px;
+  text-align: right;
+  font-family: "gilroy";
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.prev{
+  text-align: right;
+}
+
+#part3 h6 {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 14px;
+  margin-bottom: 3px;
+}
+
